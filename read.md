@@ -24,4 +24,8 @@ css:
    border 
    padding 内边距
     position: absolute;会产生浮动的效果
+    z-index：表示改变显示的顺序
+    固定定位 position:fixed 位置不变
+    相对定位一般用于父级
+    绝对定位用于子级
    
