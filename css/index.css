@@ -1,0 +1,91 @@
+/*p{*/
+/*    background-color: red;*/
+/*    font-size: 20px;*/
+
+/*}*/
+/*!*类选择器*!*/
+/*.p1{*/
+/*    font-family: "Agency FB",serif;*/
+
+/*}*/
+/*body{*/
+/*    background-color: aqua;*/
+/*    background-image: url("../images/background.jpg");*/
+/*    background-repeat: no-repeat;*/
+/*    background-attachment: fixed;*/
+/*    !*background-attachment: scroll;*!*/
+/*    !*background-position: top center;*!*/
+/*    !*background-position: 20px 30px ;*!*/
+/*    !*background: aqua url("../images/background.jpg") no-repeat fixed top center;*!*/
+/*}*/
+/*p{*/
+/*    color: red;*/
+/*    background-color: aqua;*/
+/*    direction: ltr;*/
+/*    letter-spacing: 10px;*/
+/*    line-height: 20px;*/
+/*    !*text-align: justify;*!*/
+/*    !*text-decoration: underline;*!*/
+/*    !*text-shadow: 5px 5px 5px red;*!*/
+/*    !*text-transform: uppercase;*!*/
+/*    text-indent: 2em;*/
+
+
+/*    font-family: Algerian, serif;*/
+/*    font-style: italic;*/
+/*    !*font-size: 20px;*!*/
+
+
+/*}*/
+/*ul{*/
+/*    list-style:square;*/
+/*    !*list-style-position: outside;*!*/
+/*    list-style-image: url("../images/headLogo/1.gif");*/
+/*}*/
+/*ol{*/
+/*    list-style-type: lower-alpha;*/
+/*}*/
+
+/*a:link{*/
+/*    color: red;*/
+/*}*/
+/*a:visited{*/
+/*    color: green;*/
+/*}*/
+/*a:hover{*/
+/*    color: yellow;*/
+/*    font-size: 30px;*/
+/*}*/
+/*a:active{*/
+/*    color: blue;*/
+/*}*/
+/*label:hover{*/
+/*    color: red;*/
+/*}*/
+/*input:hover{*/
+/*    background-color: blue;*/
+/*}*/
+/*input:focus{*/
+/*    background-color: yellow;*/
+
+/*}*/
+/*p:first-of-type{*/
+/*    background-color: red;*/
+/*}*/
+p::before{
+     content: "终于找到你:";
+ }
+p::after{
+    content: "离开你:";
+}
+/*p::first-line{*/
+/*    background-color: red;*/
+/*}*/
+/*p::first-letter{*/
+/*    background-color: aqua;*/
+/*    font-size: 50px;*/
+/*}*/
+*::selection{
+    background-color: red;
+
+}
