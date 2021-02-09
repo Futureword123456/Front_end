@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript" src="../js/js1.js"></script>
+</head>
+<body onload="ymd(),initLogo() ">
+    <form>
+        <label for="yyyy"></label><select name="yyyy" id="yyyy" onchange="selectYmd()"></select>年
+        <label for="mm"></label><select name="mm" id="mm" onchange="selectYmd()"></select>月
+        <label for="dd"></label><select name="dd" id="dd" ></select>日
+        <input type="button" value="删除日列表框" onclick="deletSelect()"><br>
+        <img src="../images/headLogo/1.gif" id="logoImg" alt="图片">
+        <label for="logo"></label><select id="logo" onchange="selectLogo()"></select>
+    </form>
+
+</body>
+</html>
