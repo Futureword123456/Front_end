@@ -18,14 +18,19 @@ css:
    文本样式
    lieHeight
    class选择器用.
-   id选择器用# 
+   id选择器用
    html原来的标签直接用
    margin：外边距
    border 
    padding 内边距
-    position: absolute;会产生浮动的效果
-    z-index：表示改变显示的顺序
-    固定定位 position:fixed 位置不变
-    相对定位一般用于父级
-    绝对定位用于子级
+   position: absolute;会产生浮动的效果
+   z-index：表示改变显示的顺序
+   固定定位 position:fixed 位置不变
+   相对定位一般用于父级
+   绝对定位用于子级
+
+   undefined
+   
+    
+    
    
